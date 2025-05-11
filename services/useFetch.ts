@@ -32,5 +32,5 @@ export const useFetch = <T>(
       fetchData();
     }
   }, []);
-  return { data, loading, error, reFetch: fetchData, reset };
+  return { data, loading, error, refetch: fetchData, reset };
 };
